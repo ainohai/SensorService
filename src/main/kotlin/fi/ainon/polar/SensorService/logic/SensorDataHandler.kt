@@ -1,8 +1,8 @@
 package fi.ainon.polar.SensorService.logic
 
 import fi.ainon.polar.SensorService.database.ECG.EcgService
-import fi.ainon.polar.SensorService.incomingData.EcgData
-import fi.ainon.polar.SensorService.incomingData.SensorData
+import fi.ainon.polar.SensorService.communication.dao.EcgData
+import fi.ainon.polar.SensorService.communication.dao.SensorData
 import kotlinx.serialization.json.Json
 import org.springframework.stereotype.Component
 

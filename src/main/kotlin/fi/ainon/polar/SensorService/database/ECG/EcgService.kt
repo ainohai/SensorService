@@ -1,6 +1,6 @@
 package fi.ainon.polar.SensorService.database.ECG
 
-import fi.ainon.polar.SensorService.incomingData.EcgData
+import fi.ainon.polar.SensorService.communication.dao.EcgData
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 import org.springframework.stereotype.Service

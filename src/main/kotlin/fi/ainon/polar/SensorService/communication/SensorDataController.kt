@@ -1,6 +1,6 @@
 package fi.ainon.polar.SensorService.communication
 
-import fi.ainon.polar.SensorService.incomingData.SensorData
+import fi.ainon.polar.SensorService.communication.dao.SensorData
 import fi.ainon.polar.SensorService.logic.SensorDataHandler
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
