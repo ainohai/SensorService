@@ -1,4 +1,4 @@
-package fi.ainon.polar.SensorService.communication.dao
+package fi.ainon.polar.sensorservice.communication.dao
 
 import java.io.Serializable
 

@@ -1,4 +1,4 @@
-package fi.ainon.polar.SensorService.dataTransformation
+package fi.ainon.polar.sensorservice.logic.dataTransformation
 
 import org.springframework.stereotype.Component
 import java.io.FileInputStream

@@ -1,4 +1,4 @@
-package fi.ainon.polar.SensorService.database.ECG
+package fi.ainon.polar.sensorservice.database
 
 import jakarta.persistence.*
 

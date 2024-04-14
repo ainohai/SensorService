@@ -3,3 +3,9 @@ CREATE TABLE IF NOT EXISTS ecg (
     timepoint BIGINT NOT NULL,
     voltage INT NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS hr (
+    id SERIAL PRIMARY KEY,
+    hr INTEGER NOT NULL,
+    rrs_ms VARCHAR(255) NOT NULL
+);

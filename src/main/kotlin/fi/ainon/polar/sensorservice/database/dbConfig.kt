@@ -1,4 +1,4 @@
-package fi.ainon.polar.SensorService.database
+package fi.ainon.polar.sensorservice.database
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories

@@ -1,7 +1,7 @@
-package fi.ainon.polar.SensorService.communication
+package fi.ainon.polar.sensorservice.communication
 
-import fi.ainon.polar.SensorService.communication.dao.SensorData
-import fi.ainon.polar.SensorService.logic.SensorDataHandler
+import fi.ainon.polar.sensorservice.communication.dao.SensorData
+import fi.ainon.polar.sensorservice.logic.SensorDataHandler
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 
@@ -17,7 +17,7 @@ class SensorDataController(private val sensorDataHandler: SensorDataHandler) {
     @PostMapping("/addData")
     fun addData(@RequestBody request: SensorData) : HttpStatus {
         System.out.println("Called data")
-        sensorDataHandler.addEcgData(request)
+        sensorDataHandler.addData(request)
         return HttpStatus.OK
     }
 }
